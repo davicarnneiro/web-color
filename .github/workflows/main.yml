@@ -24,8 +24,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            davicarneiro/live-web-color:${{github.run_number}}
-            davicarneiro/live-web-color:latest
+            davicarneiro/web-color:${{github.run_number}}
+            davicarneiro/web-color:latest
 
 
 
